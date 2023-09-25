@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    padding: 0;
+    bottom: 0; 
+}
+.navbar {
+    background-color: white ; 
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  }
+  .navbar a {
+    float: right;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+  }
+  .navbar a:hover {
+   color: #286A6C;
+  }
+  body{
+    height: 1100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+   
+   
+  }
+  .logo{
+    width: 150px;
+    height: 90px;
+    margin-top: -5px;
+    margin-left: 50px;
+  }
+  .reserve{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 50px;
+    font-weight: bold;
+
+  }
+  .reserve:hover{
+    background-image: none;
+    background-color: black;
+   
+  }
+  video{
+    width: 100%;
+    
+  }
+  .text{
+  color: white;
+  position: relative;
+  bottom: 500px;
+  font-size: 80px;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 5px 5px #286A6C;
+  margin-left: 100px;
+ 
+  }
+
+  .title{
+    font-size: 30px;
+    color: black;
+    text-shadow: none;
+  }
+  button{
+      border: none;
+      background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+      color: white;
+      border-radius: 5px;
+      padding: 15px 15px 15px 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      bottom: 460px;
+      font-size: 13px;
+      margin-left: 700px;
+      cursor: pointer;
+      width: 150px;
+      font-weight: bold;
+      box-shadow: 3px 3px 3px 3px black;
+      animation: fadeInOut 5s infinite alternate;
+      
+  }
+  .main{
+    text-align: center;
+    margin-top: -80px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+    
+   
+   
+  }
+
+  .main1, .pic1{
+    height: 300px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: -20px;
+   
+  }
+ 
+  #h2{
+    margin-left: -5px;
+    margin-top: 120px;
+
+    
+  }
+  .custom-hr {
+    height: 1px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    width: 130px;
+   
+}
+  .sp{
+    color: rgb(139, 135, 135);
+    font-size: 13px;
+  }
+  button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px 5px  black;
+  }
+  .pic1:hover{
+    transform: scale(1.1);
+  }
+  img:hover{
+    transform: scale(1.1);
+    
+  }
+  img{
+    border-radius: 10px;
+  }
+  p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    font-size: 18px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 15px 15px 15px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border-radius: 10px;
+    
+  }
+  .div1{
+    text-align: center;
+    margin-top:130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .aside1{
+    float: left;
+    margin-left: 160px;
+    margin-top: 140px;
+    height: 300px;
+    
+  }
+  .aside2{
+    float: left;
+    margin-left: 815px;
+    margin-right: 50px;
+    margin-top: -80px;
+    
+    
+  }
+  .aside3{
+    float: left;
+    margin-left: 145px;
+    margin-top: -80px;
+    height: 300px;
+  }
+  .aside4{
+    float: left;
+    margin-left: 815px;
+    margin-right: 50px;
+    margin-top: -80px;
+    
+    
+  }
+  .aside5{
+    float: left;
+    margin-left: 148px;
+    margin-top: -80px;
+    height: 300px;
+    
+  }
+  .aside6{
+    float: left;
+    margin-left: 815px;
+    margin-right: 50px;
+    margin-top: -80px;
+    
+  }
+  .div11{
+    margin-left: 395px;
+    margin-right: 75px;
+    margin-top: 145px;
+    padding-bottom: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+  }
+  .div12{
+    display: flex;
+    float: right;
+    margin-left: 67px;
+    margin-right: 395px;
+    margin-top: -153px;
+    padding-bottom: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .div13{
+    display: flex;
+    float: right;
+    margin-left: 395px;
+    margin-right: 75px;
+    margin-top: -150px;
+    padding-bottom: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+  }
+  .div14{
+    display: flex;
+    float: right;
+    margin-left: 67px;
+    margin-right: 395px;
+    margin-top: -153px;
+    padding-bottom: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .div15{
+    display: flex;
+    float: right;
+    margin-left: 395px;
+    margin-right: 75px;
+    margin-top: -153px;
+    padding-bottom: 190px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .div16{
+    display: flex;
+    float: right;
+    margin-left: 67px;
+    margin-right: 395px;
+    margin-top: -153px;
+    padding-bottom: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .square {
+    height: 12px;
+    width: 12px;
+    display: flex;
+    float: right;
+    margin-right: 680px;
+    margin-top: -280px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    
+  }
+  .pre1{
+    margin-top: -2px;
+    margin-left: 25px;
+  }
+  .pre2{
+    margin-left:-155px;
+    margin-top: 25px;
+  }
+  .icons {
+    margin-left: 720px;
+    margin-top: -45px;
+    cursor: pointer;
+    color: initial; 
+    transition: color 0.3s; 
+  }
+  .textss {
+    margin-left: 25px;
+    margin-top: -13px;
+    color: initial; 
+    transition: color 0.3s; 
+  }
+  .comfi{
+    padding-top: -300px;
+  }
+ .subs-main{
+  display: flex; 
+  margin-left: -80px;
+  gap: 90px;
+  margin-top: 20PX;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-left: -120px;
+  margin-right: 100px;
+
+ }
+ .sub_main{
+  margin-left: 900px;
+  margin-top: 130pX;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff; 
+  text-decoration: none; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin: 10px;
+}
+.button:hover{
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+.sube_main{
+ margin-left:822px;
+ margin-top: 80px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.subse-main{
+  display: flex;
+  gap: 90px;
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-left: -40px;
+  margin-right: 100px;
+ 
+}
+.main-pi{
+  display: flex;
+  gap: 70px;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 260px;
+  width: 250px;
+
+ 
+}
+img{
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.main-po{
+  display: flex;
+  gap: 70px;
+  margin-top: 330px;
+  margin-left: -1365px;
+  margin-right: 100px;
+  width: 250px;
+  height: 260px;
+}
+.main-map{
+  margin-top: 1100px;
+  width: 100%;
+  height: 400px;
+}
+footer {
+  background-color: black;
+  height: 300px;
+  color: white;
+ 
+}
+.iconse{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: -1280px; 
+  margin-top: 40px;
+}
+.iconse a{
+  text-decoration: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  padding: 5px 5px 5px 5px;
+  position: relative;
+  bottom: 50px;
+  margin-right: 20px;
+  margin-top: 40px;
+  position: relative;
+  left: 700px; 
+}
+.iconse ion-icon{
+  color: white;
+  font-size: 25px;      
+}
+.iconse ion-icon:hover{
+  color: black
+}
+ul li:hover {
+  color:  #286A6C;
+}
+ul .hov{
+  color:  #286A6C;
+}
